@@ -1,3 +1,5 @@
 def getTotalBudget(people):
-    pass
-    '''Your amazing code here'''
+   Budget=0
+   for person in people:
+     Budget += person["budget"]
+   return Budget
